@@ -1,0 +1,29 @@
+#box{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(205, 232, 32);
+    margin-top: 30px;
+    margin-right: 1em;
+    margin-bottom: 70px;
+    margin-left: 90px;
+    padding: 3px;
+}
+.first,.second,.third{
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(146, 73, 85);
+    border-radius: 50%;
+    display: inline-block;
+}
+ul{
+    display: block;
+}
+
+/* properties of box model  */
+#box1 #box2{
+    height: 200px;
+    width: 200px;
+}
