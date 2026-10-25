@@ -1,0 +1,41 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background: rgb(117, 188, 117);
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 0.5s;
+}
+#box1:hover{
+    width: 600px;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background: rgb(218, 105, 105);
+    transform:rotate(90deg);
+    transform:translate(200px,200px);
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    transform: skew(20deg);
+}
+
+#box4{
+    width: 100px;
+    height:100px;
+    background:rgb(3, 66, 3);
+     box-shadow: 2px 2px 15px rgb(66, 170, 66); /* box-shadow: x axis y axis blur radius color; */
+}
+#myPic{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    background-image: url(https://images.unsplash.com/photo-1723398466717-12d0c8f6299c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8);
+    background-size: cover;
+}
