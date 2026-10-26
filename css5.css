@@ -6,9 +6,6 @@
     background-color: aliceblue;
     /* align-items: center; */
     border-color: aqua;
-    
-    
-
 }
 div{
     height: 100px;
@@ -26,9 +23,7 @@ div{
     /* flex-shrink: 1; */
     /* align-self: center; */
     border-radius: 15px;
-
 }
-
 .navbar{
     height: 50px;
     width: 900px;
