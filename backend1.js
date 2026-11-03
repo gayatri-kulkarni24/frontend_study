@@ -3,3 +3,4 @@ for(let i=0;i<n;i++){
     console.log("hello");
 }
 console.log("bye");
+console.log("hi");
